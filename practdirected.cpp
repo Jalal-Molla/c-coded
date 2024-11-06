@@ -4,7 +4,7 @@ using namespace std;
 class Dgraph{
 private:
     int V;
-    vector<int> *adj;
+    vector<int> *adj;// adjancy list
 public:
     Dgraph(int V){
     this->V=V;
